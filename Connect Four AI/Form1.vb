@@ -10,7 +10,7 @@
             Dim CoordLetter As Char = Mid(TextBox1.Text, 1)
             Dim CoordNumber As String = Mid(TextBox1.Text, 2)
             Dim Coordinate As String = CoordLetter + CoordNumber
-
+' Blablalba
             If CoordNumber = 5 Or CoordNumber = 4 Or CoordNumber = 3 Or CoordNumber = 2 Or CoordNumber = 1 Then
                 If CoordLetter = "A" And CoordNumber = 5 And (PictureBoxA6.BackColor = Color.Red Or PictureBoxA6.BackColor = Color.Blue) Then
                     PlaceCounter(CoordNumber, CoordLetter, PlayerTurn)
