@@ -6,7 +6,7 @@
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
         If Len(TextBox1.Text) = 2 And Char.IsLetter(Mid(TextBox1.Text, 1)) And IsNumeric(Mid(TextBox1.Text, 2)) Then
-
+            'This Is a comment
             Dim CoordLetter As Char = Mid(TextBox1.Text, 1)
             Dim CoordNumber As String = Mid(TextBox1.Text, 2)
             Dim Coordinate As String = CoordLetter + CoordNumber
