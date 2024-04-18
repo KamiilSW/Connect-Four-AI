@@ -4,7 +4,7 @@
     End Sub
     Dim PlayerTurn As Integer = 1
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-        Console.WriteLine("Daddy is annoying E3")
+
         If Len(TextBox1.Text) = 2 And Char.IsLetter(Mid(TextBox1.Text, 1)) And IsNumeric(Mid(TextBox1.Text, 2)) Then
 
             Dim CoordLetter As Char = Mid(TextBox1.Text, 1)
