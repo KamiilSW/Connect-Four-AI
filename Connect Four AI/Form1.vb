@@ -1,4 +1,4 @@
-﻿Public Class Form1
+Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -658,6 +658,323 @@
         ElseIf PictureBoxB5.BackColor = Color.Red And PictureBoxC5.BackColor = Color.Red And PictureBoxD5.BackColor = Color.Red And PictureBoxE5.BackColor = Color.Red Then
             WinCondition = True
             MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB5.BackColor = Color.Blue And PictureBoxC5.BackColor = Color.Blue And PictureBoxd5.BackColor = Color.Blue And PictureBoxE5.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC5.BackColor = Color.Red And PictureBoxD5.BackColor = Color.Red And PictureBoxE5.BackColor = Color.Red And PictureBoxF5.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC5.BackColor = Color.Blue And PictureBoxD5.BackColor = Color.Blue And PictureBoxE5.BackColor = Color.Blue And PictureBoxF5.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD5.BackColor = Color.Red And PictureBoxE5.BackColor = Color.Red And PictureBoxF5.BackColor = Color.Red And PictureBoxG5.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD5.BackColor = Color.Blue And PictureBoxE5.BackColor = Color.Blue And PictureBoxF5.BackColor = Color.Blue And PictureBoxG5.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA4.BackColor = Color.Red And PictureBoxB4.BackColor = Color.Red And PictureBoxC4.BackColor = Color.Red And PictureBoxD4.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA4.BackColor = Color.Blue And PictureBoxB4.BackColor = Color.Blue And PictureBoxC4.BackColor = Color.Blue And PictureBoxD4.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB4.BackColor = Color.Red And PictureBoxC4.BackColor = Color.Red And PictureBoxD4.BackColor = Color.Red And PictureBoxE4.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB4.BackColor = Color.Blue And PictureBoxC4.BackColor = Color.Blue And PictureBoxD4.BackColor = Color.Blue And PictureBoxE4.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC4.BackColor = Color.Red And PictureBoxD4.BackColor = Color.Red And PictureBoxE4.BackColor = Color.Red And PictureBoxF4.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC4.BackColor = Color.Blue And PictureBoxD4.BackColor = Color.Blue And PictureBoxE4.BackColor = Color.Blue And PictureBoxF4.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD4.BackColor = Color.Red And PictureBoxE4.BackColor = Color.Red And PictureBoxF4.BackColor = Color.Red And PictureBoxG4.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD4.BackColor = Color.Blue And PictureBoxE4.BackColor = Color.Blue And PictureBoxF4.BackColor = Color.Blue And PictureBoxG4.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA3.BackColor = Color.Red And PictureBoxB3.BackColor = Color.Red And PictureBoxC3.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA3.BackColor = Color.Blue And PictureBoxB3.BackColor = Color.Blue And PictureBoxC3.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB3.BackColor = Color.Red And PictureBoxC3.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB3.BackColor = Color.Blue And PictureBoxC3.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC3.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red And PictureBoxF3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC3.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue And PictureBoxF3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD3.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red And PictureBoxF3.BackColor = Color.Red And PictureBoxG3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD3.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue And PictureBoxF3.BackColor = Color.Blue And PictureBoxG3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA2.BackColor = Color.Red And PictureBoxB2.BackColor = Color.Red And PictureBoxC2.BackColor = Color.Red And PictureBoxD2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA2.BackColor = Color.Blue And PictureBoxB2.BackColor = Color.Blue And PictureBoxC2.BackColor = Color.Blue And PictureBoxD2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB2.BackColor = Color.Red And PictureBoxC2.BackColor = Color.Red And PictureBoxD2.BackColor = Color.Red And PictureBoxE2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB2.BackColor = Color.Blue And PictureBoxC2.BackColor = Color.Blue And PictureBoxD2.BackColor = Color.Blue And PictureBoxE2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC2.BackColor = Color.Red And PictureBoxD2.BackColor = Color.Red And PictureBoxE2.BackColor = Color.Red And PictureBoxF2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC2.BackColor = Color.Blue And PictureBoxD2.BackColor = Color.Blue And PictureBoxE2.BackColor = Color.Blue And PictureBoxF2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD2.BackColor = Color.Red And PictureBoxE2.BackColor = Color.Red And PictureBoxF2.BackColor = Color.Red And PictureBoxG2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD2.BackColor = Color.Blue And PictureBoxE2.BackColor = Color.Blue And PictureBoxF2.BackColor = Color.Blue And PictureBoxG2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA1.BackColor = Color.Red And PictureBoxB1.BackColor = Color.Red And PictureBoxC1.BackColor = Color.Red And PictureBoxD1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA1.BackColor = Color.Blue And PictureBoxB1.BackColor = Color.Blue And PictureBoxC1.BackColor = Color.Blue And PictureBoxD1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB1.BackColor = Color.Red And PictureBoxC1.BackColor = Color.Red And PictureBoxD1.BackColor = Color.Red And PictureBoxE1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB1.BackColor = Color.Blue And PictureBoxC1.BackColor = Color.Blue And PictureBoxD1.BackColor = Color.Blue And PictureBoxE1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC1.BackColor = Color.Red And PictureBoxD1.BackColor = Color.Red And PictureBoxE1.BackColor = Color.Red And PictureBoxF1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC1.BackColor = Color.Blue And PictureBoxD1.BackColor = Color.Blue And PictureBoxE1.BackColor = Color.Blue And PictureBoxF1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD1.BackColor = Color.Red And PictureBoxE1.BackColor = Color.Red And PictureBoxF1.BackColor = Color.Red And PictureBoxG1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD1.BackColor = Color.Blue And PictureBoxE1.BackColor = Color.Blue And PictureBoxF1.BackColor = Color.Blue And PictureBoxG1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA6.BackColor = Color.Red And PictureBoxA5.BackColor = Color.Red And PictureBoxA4.BackColor = Color.Red And PictureBoxA3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA5.BackColor = Color.Red And PictureBoxA4.BackColor = Color.Red And PictureBoxA3.BackColor = Color.Red And PictureBoxA2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA4.BackColor = Color.Red And PictureBoxA3.BackColor = Color.Red And PictureBoxA2.BackColor = Color.Red And PictureBoxA1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB6.BackColor = Color.Red And PictureBoxB5.BackColor = Color.Red And PictureBoxB4.BackColor = Color.Red And PictureBoxB3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB5.BackColor = Color.Red And PictureBoxB4.BackColor = Color.Red And PictureBoxB3.BackColor = Color.Red And PictureBoxB2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB4.BackColor = Color.Red And PictureBoxB3.BackColor = Color.Red And PictureBoxB2.BackColor = Color.Red And PictureBoxB1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC6.BackColor = Color.Red And PictureBoxC5.BackColor = Color.Red And PictureBoxC4.BackColor = Color.Red And PictureBoxC3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC5.BackColor = Color.Red And PictureBoxC4.BackColor = Color.Red And PictureBoxC3.BackColor = Color.Red And PictureBoxC2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC4.BackColor = Color.Red And PictureBoxC3.BackColor = Color.Red And PictureBoxC2.BackColor = Color.Red And PictureBoxC1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD6.BackColor = Color.Red And PictureBoxD5.BackColor = Color.Red And PictureBoxD4.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD5.BackColor = Color.Red And PictureBoxD4.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red And PictureBoxD2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD4.BackColor = Color.Red And PictureBoxD3.BackColor = Color.Red And PictureBoxD2.BackColor = Color.Red And PictureBoxD1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE6.BackColor = Color.Red And PictureBoxE5.BackColor = Color.Red And PictureBoxE4.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE5.BackColor = Color.Red And PictureBoxE4.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red And PictureBoxE2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE4.BackColor = Color.Red And PictureBoxE3.BackColor = Color.Red And PictureBoxE2.BackColor = Color.Red And PictureBoxE1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF6.BackColor = Color.Red And PictureBoxF5.BackColor = Color.Red And PictureBoxF4.BackColor = Color.Red And PictureBoxF3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF5.BackColor = Color.Red And PictureBoxF4.BackColor = Color.Red And PictureBoxF3.BackColor = Color.Red And PictureBoxF2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF4.BackColor = Color.Red And PictureBoxF3.BackColor = Color.Red And PictureBoxF2.BackColor = Color.Red And PictureBoxF1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG6.BackColor = Color.Red And PictureBoxG5.BackColor = Color.Red And PictureBoxG4.BackColor = Color.Red And PictureBoxG3.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG5.BackColor = Color.Red And PictureBoxG4.BackColor = Color.Red And PictureBoxG3.BackColor = Color.Red And PictureBoxG2.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG4.BackColor = Color.Red And PictureBoxG3.BackColor = Color.Red And PictureBoxG2.BackColor = Color.Red And PictureBoxG1.BackColor = Color.Red Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA6.BackColor = Color.Blue And PictureBoxA5.BackColor = Color.Blue And PictureBoxA4.BackColor = Color.Blue And PictureBoxA3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA5.BackColor = Color.Blue And PictureBoxA4.BackColor = Color.Blue And PictureBoxA3.BackColor = Color.Blue And PictureBoxA2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxA4.BackColor = Color.Blue And PictureBoxA3.BackColor = Color.Blue And PictureBoxA2.BackColor = Color.Blue And PictureBoxA1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB6.BackColor = Color.Blue And PictureBoxB5.BackColor = Color.Blue And PictureBoxB4.BackColor = Color.Blue And PictureBoxB3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB5.BackColor = Color.Blue And PictureBoxB4.BackColor = Color.Blue And PictureBoxB3.BackColor = Color.Blue And PictureBoxB2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxB4.BackColor = Color.Blue And PictureBoxB3.BackColor = Color.Blue And PictureBoxB2.BackColor = Color.Blue And PictureBoxB1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC6.BackColor = Color.Blue And PictureBoxC5.BackColor = Color.Blue And PictureBoxC4.BackColor = Color.Blue And PictureBoxC3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC5.BackColor = Color.Blue And PictureBoxC4.BackColor = Color.Blue And PictureBoxC3.BackColor = Color.Blue And PictureBoxC2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxC4.BackColor = Color.Blue And PictureBoxC3.BackColor = Color.Blue And PictureBoxC2.BackColor = Color.Blue And PictureBoxC1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD6.BackColor = Color.Blue And PictureBoxD5.BackColor = Color.Blue And PictureBoxD4.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD5.BackColor = Color.Blue And PictureBoxD4.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue And PictureBoxD2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxD4.BackColor = Color.Blue And PictureBoxD3.BackColor = Color.Blue And PictureBoxD2.BackColor = Color.Blue And PictureBoxD1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE6.BackColor = Color.Blue And PictureBoxE5.BackColor = Color.Blue And PictureBoxE4.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE5.BackColor = Color.Blue And PictureBoxE4.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue And PictureBoxE2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxE4.BackColor = Color.Blue And PictureBoxE3.BackColor = Color.Blue And PictureBoxE2.BackColor = Color.Blue And PictureBoxE1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF6.BackColor = Color.Blue And PictureBoxF5.BackColor = Color.Blue And PictureBoxF4.BackColor = Color.Blue And PictureBoxF3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF5.BackColor = Color.Blue And PictureBoxF4.BackColor = Color.Blue And PictureBoxF3.BackColor = Color.Blue And PictureBoxF2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxF4.BackColor = Color.Blue And PictureBoxF3.BackColor = Color.Blue And PictureBoxF2.BackColor = Color.Blue And PictureBoxF1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG6.BackColor = Color.Blue And PictureBoxG5.BackColor = Color.Blue And PictureBoxG4.BackColor = Color.Blue And PictureBoxG3.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG5.BackColor = Color.Blue And PictureBoxG4.BackColor = Color.Blue And PictureBoxG3.BackColor = Color.Blue And PictureBoxG2.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
+        ElseIf PictureBoxG4.BackColor = Color.Blue And PictureBoxG3.BackColor = Color.Blue And PictureBoxG2.BackColor = Color.Blue And PictureBoxG1.BackColor = Color.Blue Then
+            WinCondition = True
+            MessageBox.Show("We have a winner!")
+
         Else
 
             WinCondition = False
